@@ -87,3 +87,25 @@ body {
   font-size: 3rem;
 }
 
+h4{
+  font-style: normal;
+ /* font-size: 40px;*/
+  position: center;
+  font-family: red serifs;
+  text-align: center; 
+  border-style: inset;
+}
+
+h4{
+  animation: colorchangeonline 3s infinite;
+}
+@keyframes colorchangeonline{
+  20%{color: yellow;}
+  40%{ color: #bf55ec; }
+  60%{color: white;}
+  80%{color: pink;}
+  100%{color: #bf55ec;}
+}
+h2{
+  text-decoration: underline;
+}

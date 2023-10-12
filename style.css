@@ -76,6 +76,15 @@ body {
   transition: transform 500ms ease-in-out;
 }
 
+.corner{
+  background: lightskyblue;
+}
+
+.li{
+  color: blue;
+  font-size: 55px;
+}
+
 .chapter section {
   height: 100vh;
   width: 95vw;
@@ -141,5 +150,5 @@ h2{
   background: lightskyblue;
 }
 .org{
-  background: lightgreen;
+    font-size: 55px;
 }
